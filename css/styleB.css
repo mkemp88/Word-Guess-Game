@@ -1,0 +1,45 @@
+#titleImage {
+    margin: 0;
+    width: 500px;
+}
+
+.jumbotron {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+}
+
+#background {
+    background-image: url(../images/background2.jpg);
+    background-size: 100%;
+}
+
+#container {
+    background-color: white;
+    padding: 25px;
+}
+
+#start {
+    padding-top: 25px;
+}
+
+.card {
+    padding: 25px;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.carousel {
+    padding: 75px;
+}
+
+.unsolvedName {
+    text-align: center;
+}

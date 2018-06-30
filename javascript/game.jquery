@@ -1,0 +1,10 @@
+var images = 
+
+for (var i = 0; i < imgArray.length; i++){
+    var basePathURL = "./images/"
+    basePathURL = basePathURL + imgArray[i];
+    var img = document.createElement('img');
+    img.setAttribute('src', basePathURL);
+    document.getElementById("imageBox").appendChild(img);
+
+}
